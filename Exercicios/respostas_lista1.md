@@ -2,25 +2,27 @@
 
 #### Exercício 1)
 
-    **E1** = {1, 2, 3, 4, 5, 6}
+    E1 = {1, 2, 3, 4, 5, 6}
 
-    **E2** = {Cara, Coroa}
+    E2 = {0, 1, 2, 3, 4, 5}
 
-    **E3** = {Cara, Coroa}
+    E3 = {1, 2, 3, .....}
 
-    **E4** = {1min, 2min, 3min, ......., n}, onde n tende ao infinito
+    E4 = {t E R| t >= 0 }
 
-    **E5** = {1.80, 1.81, 1.82, ......., n}
+    E5 = {h E R| 1,5 >= h <= 2,5 }
 
 #### Exercício 2)
 
-    **E2 - Lance uma moeda cinco vezes e verifique o número de caras**
+    E1 = {2, 4, 6 }
 
-    - Espaço Amostral: {Cara, Coroa}
-    - Quantidade de lançamentos: 5
-    - Quantidade de eventos possivels (caras): 5
+    E2 = {2}
 
-    P(C) = 5/32 = 0.156
+    E3 = {5 ou mais vezes}
+
+    E4 = {t >= 5h}
+
+    E5 = {h > 2m}
 
 
 #### Exercício 3)
@@ -41,25 +43,56 @@
 
 #### Exercício 4)
 
-Qual a chance da pessoa com teste positivo ter realmente o vírus?
+    Qual a chance da pessoa com teste positivo ter realmente o vírus?
 
-Fração de infectados = 1/1000 = 0,001
+    Fração de infectados = 1/1000 = 0,001
 
-Positivo-HIV = 0,95  <br>
-Positivo-Sem-HIV = 1 - 95% = 0,05  <br>
+    Positivo-HIV = 0,95  
+    Positivo-Sem-HIV = 1 - 95% = 0,05 
 
-Negativo-HIV = 1 - 98% = 0,02  <br>
-Negativo-Sem-HIV = 0,98  <br>
+    Negativo-HIV = 1 - 98% = 0,02 
+    Negativo-Sem-HIV = 0,98  
 
-A = Testou positivo  <br>
-B = Tem HIV
+    A = Testou positivo  
+    B = Tem HIV
 
-P(A|B) = P(B|A)P(A)/P(B)
+    P(A|B) = P(B|A)P(A)/P(B)
 
-P(B|A) = 0,95 <br>
-P(A) = 0,001 <br>
-P(B) = (0,95 * 0,001) + (0,02 * 0,999) <br>
+    P(B|A) = 0,95
+    P(A) = 0,001
+    P(B) = (0,95 * 0,001) + (0,02 * 0,999)
 
-P(B|A)P(A)/P(B) = 0,95 * 0,001 / (0,95 * 0,001) + (0,02 * 0,999) = 0,00095/0,02093
+    P(B|A)P(A)/P(B) = 0,95 * 0,001 / (0,95 * 0,001) + (0,02 * 0,999) = 0,00095/0,02093
 
-P(B|A)P(A)/P(B) = 0,0453
+    P(B|A)P(A)/P(B) = 0,0453
+
+#### Exercício 5)
+
+    3 moedas
+    y = 'número de caras obtidas'
+
+    k = cara
+    z = coroa
+
+    Espaço Amostral: {kzk, kzz, kkz, kkk, zzk, zkz, zkk, zzz}
+
+Saída | y | Prob
+:---------: | :------: | :-------:
+kzk | 2 | 1/2 * 1/2 * 1/2 = 1/8
+kzz | 1 | 1/2 * 1/2 * 1/2 = 1/8
+kkz | 2 | 1/2 * 1/2 * 1/2 = 1/8
+kkk | 3 | 1/2 * 1/2 * 1/2 = 1/8
+zzk | 1 | 1/2 * 1/2 * 1/2 = 1/8
+zkz | 1 | 1/2 * 1/2 * 1/2 = 1/8
+zkk | 2 | 1/2 * 1/2 * 1/2 = 1/8
+zzz | 0 | 1/2 * 1/2 * 1/2 = 1/8
+
+X | 0 | 1 | 2 | 3 
+:---------: | :------: | :-------:| :-------:| :-------:
+P(Y = y) | 1/8 | 3/8 | 3/8  | 1/8
+
+#### Exercício 6)
+![exercicio 6](Ex_Images/lista1_ex6.jpg)
+
+#### Exercício 7)
+![exercicio 7](Ex_Images/lista1_ex7.jpg)
