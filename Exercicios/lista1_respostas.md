@@ -96,3 +96,12 @@ P(Y = y) | 1/8 | 3/8 | 3/8  | 1/8
 
 #### Exercício 7)
 ![exercicio 7](Ex_Images/lista1_ex7.jpg)
+
+#### Exercício 8)
+![exercicio 7](Ex_Images/lista1_ex8.jpg)
+
+#### Exercício 9)
+![exercicio 7](Ex_Images/lista1_ex9.jpg)
+
+#### Exercício 10)
+![exercicio 7](Ex_Images/lista1_ex10.jpg)
